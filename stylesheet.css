@@ -1,0 +1,199 @@
+.btnstyle{
+	margin-top:10%;
+
+}
+.login{
+	background:#262626;
+	color: white;
+	
+}
+
+.search{
+	background:#333333;
+	border:none;
+}
+
+
+.navbar-default{
+	background:#262626;
+	border:none;
+	padding:0;
+	color:white;
+}
+
+.navbar{
+	margin-bottom: 0;
+
+}
+
+.navbar-brand-text{
+
+	color:white;
+	border:none;
+	text-decoration-color: white;
+}
+
+
+.page{
+	background-color: black;
+	
+}
+
+.follow_btn{
+	margin-left:39%;
+
+}
+
+.story_row{
+	padding-top:10%;
+
+}
+.post_title{
+	margin:3px;
+	text-align:left;
+	font-size: 35px;
+	color: white;
+	font-weight: bold;
+}
+
+
+.post_title_author{
+	font-size: 15px;
+	padding-top:15px;
+	color: white;
+	margin-right:0px;
+}
+
+.post_information{
+	font-size: 13px;
+	padding-top:15px;
+	color: white;
+}
+
+.post_hashtags{
+	font-size: 13px;
+	font-style: bold;
+	padding-top:15px;
+	color: white;
+}
+
+ul{
+	
+	list-style-type: none;
+ 	 margin: 0;
+  	 padding: 0;
+ 	 overflow: hidden;
+ 	 
+}
+li {
+  float: left;
+  text-align: center;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right:10.5px;
+  padding-left:10.5px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: red;
+}
+
+
+.recommended_post_title{
+	text-align:left;
+	color:white;
+	font-size:25px;
+	padding-top:5%;
+}
+
+.recommended_story_image{
+	padding-top:7%;
+}
+
+
+.imagecredits{
+	text-align: right;
+	color: white;
+}
+
+p1{
+	font-size: 12px;
+	color: white;
+}
+
+.bottom_rectangle {
+  height: 20px;
+  width: 5px;
+  background-color: red;
+}
+.top_rectangle {
+  height: 5px;
+  width: 20px;
+  background-color: red;
+}
+
+.rightsiderectangle_bottom{
+	margin-left: 95.8%;
+}
+.rightsiderectangle_top{
+	margin-left: 100%;
+}
+
+
+/* Dropdown Button */
+.dots_dropbtn {
+  color:#323232;	
+  padding: 16px;
+  font-size: 30px;
+  background-color: black;
+  border:none;
+}
+
+/* The container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  border:none;
+}
+
+/* Dropdown Content (that is to be revealed) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border:none;
+  background-color:#323232;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* The content inside the dropdown*/
+.dropdown-content a {
+  color: white;
+  padding: 5px 6px;
+  text-decoration: none;
+  display: block;
+  border:none;
+}
+
+/*changes color of content when hovered over*/
+.dropdown-content a:hover {background-color: #ddd}
+.show {display:block;}
+
+
+.footer{
+margin-top:5%;
+background-color:#262626;
+color:white;
+min-height: 50px;
+margin-left: 24%;
+font-weight: bold;
+font-size:20px;
+}
+
+.share_btn{
+text-align:left;
+}

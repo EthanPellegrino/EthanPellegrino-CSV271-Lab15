@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+ 
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="stylesheet.css" rel="stylesheet"> 
+ 
+  </head>
+  <body>
+ 
+<nav class="navbar navbar-default">
+
+  <div class="container-fluid">
+      <div class ="navbar-header">
+        <a class="navbar-brand navbar-brand-text" href="#">
+
+
+        FLIPBOARD CLONE</a>
+      </div>
+      
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control search" placeholder="Search">
+        </div>
+      <button type="submit" class="btn btn-danger">Sign up</button>
+      <button class="btn login">Log in</button>
+
+  </div> 
+</nav>
+
+
+
+<div class="container-fluid page">
+ 
+
+<!-- Begin Story Row -->
+<div class="row story_row">
+
+    <div class="col-md-3 col-md-offset-3">
+
+      <div class="top_rectangle"></div>
+      <div class="bottom_rectangle"></div>
+
+        <div class="post_title">MONOLITH HATERS ARE CONVINCED IT’S JUST A DUMB MARKETING PLOY</div>
+
+        <div class="post_title_author">
+        THE DAILY BEAST <button type="submit" class="btn btn-danger follow_btn">Follow</button> 
+        </div>
+
+        <div class="post_information">The whimsy of the first discovery in Utah has worn off with each subsequent find.</div>
+
+       
+        <ul id="hashtag_menu">
+          <li><a href=#UNITEDSTATES>#UNITEDSTATES  </li>
+          <li><a href=#U.S>#U.S  </li>
+          <li><a href=#NEWSMARKETING>#NEWSMARKETING  </li>
+          <li><a href=#ART>#ART  </li>
+        </ul>
+        
+
+        <div class="bottom_rectangle rightsiderectangle_top"></div>
+        <div class="top_rectangle    rightsiderectangle_bottom"></div>
+     
+     </div>
+
+     <!-- Create inline story image -->
+    <div class="col-md-5 ">
+          <img class="img-responsive" src="clone_image.gif">
+          <div class="caption imagecredits">PHOTO: IMG.THEDAILYBEAST.COM</div>
+    </div>
+
+ </div>
+
+<!-- End Story Row -->
+
+
+<!-- Begin Recommended Stories
+*Note broken into rows, each story has designated row.-->
+
+<!-- example this is the first recommended story, it must have a div class opening row -->
+  
+<!-- Recommended Story Row 1 -->  
+ <div class="row">
+
+    <!-- next we must create a colomn, with a size of 3, and a offset of 3 to make it centered.-->
+
+    <div class="col-md-3 col-md-offset-3">
+          <img class="img-responsive" src="clone_image.gif">
+    </div>
+
+    <!-- this section must contain another column, that consists of the story title, and story info, story info is stored a p1 -->
+
+    <div class="col-md-3 ">
+      <div class="recommended_post_title">Monolith Haters Are Convinced It’s Just a Dumb Marketing Ploy</div>
+          <p1>
+          The Daily Beast - Kelly Weill
+          Every time another mysterious, silvery monolith is discovered in the remote wilderness, Nay Krisanda grows more fed up with the phenomenon. “If the …</p1>     
+    </div>
+
+    <!--Create new column to house the drop down dots menu -->
+    <div class="col-md-3">
+
+        <!--The dots drop down menu -->
+        <div class="dropdown">
+          <button onclick="dots_dropdownfunc(1)" class="dots_dropbtn">&#10247</button>
+          <div id="myDropdown1" class="dropdown-content">
+            <a href="#home">Like</a>
+            <a href="#about">Flip</a>
+            <a href="#contact">Share</a>
+            <a href="#publisher">Go to publisher</a>
+            <a href="#report">Report</a>
+            <a href="#follow">The Daily Beast</a>
+          </div>
+        </div>
+      <!-- end Drop Down menu-->
+            
+
+  </div>
+  <!-- end column containing dot menu-->
+
+ </div>
+
+<!-- end row -->
+
+<!-- Recommended Story Row 2 -->  
+ <div class="row">
+
+    <!-- next we must create a colomn, with a size of 3, and a offset of 3 to make it centered.-->
+
+    <div class="col-md-3 col-md-offset-3 recommended_story">
+          <img class="img-responsive recommended_story_image" src="clone_rec2_image.jpg">
+    </div>
+
+    <!-- this section must contain another column, that consists of the story title, and story info, story info is stored a p1 -->
+
+    <div class="col-md-3 ">
+      <div class="recommended_post_title">Eyewitness: I Saw Four Men Dismantling Mystery Utah Monolith</div>
+          <p1>
+          The Daily Beast - Jamie Ross
+          Part of the mystery of Utah’s disappearing monolith may have been solved. Although it’s still unclear how or why the 12-foot steel structure appeared …</p1>     
+    </div>
+
+    <!--Create new column to house the drop down dots menu -->
+    <div class="col-md-3">
+
+        <!--The dots drop down menu -->
+        <div class="dropdown">
+          <button onclick="dots_dropdownfunc(2)" class="dots_dropbtn">&#10247</button>
+          <div id="myDropdown2" class="dropdown-content">
+            <a href="#home">Like</a>
+            <a href="#about">Flip</a>
+            <a href="#contact">Share</a>
+            <a href="#publisher">Go to publisher</a>
+            <a href="#report">Report</a>
+            <a href="#follow">The Daily Beast</a>
+          </div>
+        </div>
+      <!-- end Drop Down menu-->
+            
+
+  </div>
+  <!-- end column containing dot menu-->
+
+ </div>
+
+<!-- end row -->
+
+<!-- Recommended Story Row 3 -->  
+ <div class="row">
+
+    <!-- next we must create a colomn, with a size of 3, and a offset of 3 to make it centered.-->
+
+    <div class="col-md-3 col-md-offset-3">
+          <img class="img-responsive recommended_story_image" src="clone_rec3_image.jpg">
+    </div>
+
+    <!-- this section must contain another column, that consists of the story title, and story info, story info is stored a p1 -->
+
+    <div class="col-md-3 ">
+      <div class="recommended_post_title">New Shiny Metal Monolith Appears Atop a California Mountain</div>
+          <p1>
+          The Daily Beast - Jamie Ross
+          It’s going to be so disappointing when this is inevitably revealed as some kind of dumb viral ad campaign. Days after the famed Utah monolith was …</p1>     
+    </div>
+
+    <!--Create new column to house the drop down dots menu -->
+    <div class="col-md-3">
+
+        <!--The dots drop down menu -->
+        <div class="dropdown">
+          <button onclick="dots_dropdownfunc(3)" class="dots_dropbtn">&#10247</button>
+          <div id="myDropdown3" class="dropdown-content">
+            <a href="#home">Like</a>
+            <a href="#about">Flip</a>
+            <a href="#contact">Share</a>
+            <a href="#publisher">Go to publisher</a>
+            <a href="#report">Report</a>
+            <a href="#follow">The Daily Beast</a>
+          </div>
+        </div>
+      <!-- end Drop Down menu-->
+            
+
+  </div>
+  <!-- end column containing dot menu-->
+
+ </div>
+
+<!-- end row -->
+
+<!-- Recommended Story Row 4 -->  
+ <div class="row">
+
+    <!-- next we must create a colomn, with a size of 3, and a offset of 3 to make it centered.-->
+
+    <div class="col-md-3 col-md-offset-3">
+          <img class="img-responsive recommended_story_image" src="clone_rec4_image.jpg">
+    </div>
+
+    <!-- this section must contain another column, that consists of the story title, and story info, story info is stored a p1 -->
+
+    <div class="col-md-3 ">
+      <div class="recommended_post_title">Utah Monolith-Hunters Left Behind a Whole Lot of Poop, Feds Say</div>
+          <p1>
+          The Daily Beast - Jamie Ross
+          It remains a mystery how a 12-foot steel monolith appeared, and then disappeared, in the Utah desert. What is known, however, is that it became a …</p1>     
+    </div>
+
+    <!--Create new column to house the drop down dots menu -->
+    <div class="col-md-3">
+
+        <!--The dots drop down menu -->
+        <div class="dropdown">
+          <button onclick="dots_dropdownfunc(4)" class="dots_dropbtn">&#10247</button>
+          <div id="myDropdown4" class="dropdown-content">
+            <a href="#home">Like</a>
+            <a href="#about">Flip</a>
+            <a href="#contact">Share</a>
+            <a href="#publisher">Go to publisher</a>
+            <a href="#report">Report</a>
+            <a href="#follow">The Daily Beast</a>
+          </div>
+        </div>
+      <!-- end Drop Down menu-->
+            
+
+  </div>
+  <!-- end column containing dot menu-->
+
+ </div>
+
+<!-- end row -->
+
+<!-- Recommended Story Row 5 -->  
+ <div class="row">
+
+    <!-- next we must create a colomn, with a size of 3, and a offset of 3 to make it centered.-->
+
+    <div class="col-md-3 col-md-offset-3">
+          <img class="img-responsive recommended_story_image" src="clone_rec5_image.jpg">
+    </div>
+
+    <!-- this section must contain another column, that consists of the story title, and story info, story info is stored a p1 -->
+
+    <div class="col-md-3 ">
+      <div class="recommended_post_title">Utah’s Desert Monolith Mysteriously Vanishes</div>
+          <p1>
+          The Daily Beast - Tracy Connor
+          Utah’s mysterious metallic monolith, which made headlines after wildlife workers spotted it in the desert during a sheep-counting flyover, has …</p1>     
+    </div>
+
+    <!--Create new column to house the drop down dots menu -->
+    <div class="col-md-3">
+
+        <!--The dots drop down menu -->
+        <div class="dropdown">
+          <button onclick="dots_dropdownfunc(5)" class="dots_dropbtn">&#10247</button>
+          <div id="myDropdown5" class="dropdown-content">
+            <a href="#home">Like</a>
+            <a href="#about">Flip</a>
+            <a href="#contact">Share</a>
+            <a href="#publisher">Go to publisher</a>
+            <a href="#report">Report</a>
+            <a href="#follow">The Daily Beast</a>
+          </div>
+        </div>
+      <!-- end Drop Down menu-->
+            
+
+  </div>
+  <!-- end column containing dot menu-->
+
+ </div>
+
+<!-- end row -->
+
+<!-- Recommended Story Row 6 -->  
+ <div class="row">
+
+    <!-- next we must create a colomn, with a size of 3, and a offset of 3 to make it centered.-->
+
+    <div class="col-md-3 col-md-offset-3">
+          <img class="img-responsive recommended_story_image" src="clone_rec6_image.jpg">
+    </div>
+
+    <!-- this section must contain another column, that consists of the story title, and story info, story info is stored a p1 -->
+
+    <div class="col-md-3 ">
+      <div class="recommended_post_title">Sheep-Counting Helicopter Pilots Find Bizarre Metal Monolith Deep in Utah Desert</div>
+          <p1>
+          The Daily Beast - Jamie Ross
+          The helicopter pilot said: “That’s been about the strangest thing that I’ve come across out there in all my years of flying.”</p1>     
+    </div>
+
+    <!--Create new column to house the drop down dots menu -->
+    <div class="col-md-3">
+
+        <!--The dots drop down menu -->
+        <div class="dropdown">
+          <button onclick="dots_dropdownfunc(6)" class="dots_dropbtn">&#10247</button>
+          <div id="myDropdown6" class="dropdown-content">
+            <a href="#home">Like</a>
+            <a href="#about">Flip</a>
+            <a href="#contact">Share</a>
+            <a href="#publisher">Go to publisher</a>
+            <a href="#report">Report</a>
+            <a href="#follow">The Daily Beast</a>
+          </div>
+        </div>
+      <!-- end Drop Down menu-->
+            
+
+  </div>
+  <!-- end column containing dot menu-->
+
+ </div>
+
+<!-- end row -->
+
+<!-- begin footer -->
+
+<div class="col-md-7 footer">
+
+
+
+
+MONOLITH HATERS ARE CONVINCED IT’S JUST A DUMB MARKETING PLOY
+<button type="submit" class="btn btn-danger share_btn">Share</button>
+
+
+</div>
+
+
+
+
+
+
+<!-- Begin JS-->
+
+
+      <!-- Dots drow down menu helper -->
+            <script>
+              /* When click reveal content content */
+              function dots_dropdownfunc(dropnumber) {
+              document.getElementById("myDropdown" + dropnumber).classList.toggle("show");
+              }
+
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(event) {
+              if (!event.target.matches('.dots_dropbtn')) {
+               var dropdowns = document.getElementsByClassName("dropdown-content");
+               var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+               if (openDropdown.classList.contains('show')) {
+               openDropdown.classList.remove('show');
+              }
+            }
+            }
+            }
+          </script>
+      <!-- end Dots drow down menu helper -->
+
+
+
+
+
+<!-- close container -->
+ </div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
